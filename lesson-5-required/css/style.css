@@ -1,0 +1,48 @@
+.content {
+	width: 700px;
+	margin: 30px auto;
+	padding: 10px;
+
+	font-family: "Comic Sans MS", "Monotype Corsiva", monospace;
+	line-height: 1.5em;
+
+	background: #e6e6fa;
+	border: 2px solid black;
+	border-radius: 25px;
+}
+
+.header {
+	position: relative;
+
+	height: 250px;
+}
+
+.contacts {
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	width: 350px;
+}
+
+.target {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+	width: 350px;
+}
+
+.items {
+	font-weight: bold;
+	font-style: oblique;
+	text-transform: uppercase;
+}
+
+.footer {
+	font-style: italic;
+}
+
+img {
+	width: 200px;
+}
