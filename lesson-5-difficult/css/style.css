@@ -1,0 +1,57 @@
+* {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	line-height: 1.5em; 
+	letter-spacing: 0.05em;
+}
+
+.book {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px auto;
+	background: url("../img/background.jpg") no-repeat fixed top center;
+	width: 600px;
+}
+
+.align-headers {
+	text-align: center;
+	font-size: 30px;
+}
+
+.align-center {
+	display: block;
+	text-align: center;
+}
+
+.author {
+	font-size: 35px;
+}
+
+.cite {
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.notes {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 18px;
+	text-align: justify;
+}
+
+img {
+	width: 400px;
+	margin: 20px auto;
+}
+
+a:link {
+	font-size: 25px;
+	color: #8a2be2;
+	text-decoration: none;
+}
+
+a:hover {
+	color : #00ced1;
+}
