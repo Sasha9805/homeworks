@@ -8,7 +8,7 @@
 	border: 1px solid black;
 	padding: 20px;
 	margin: 20px auto;
-	background: url("../img/background.jpg") no-repeat fixed top center;
+	background: url("../img/background.jpg") repeat fixed top center;
 	width: 600px;
 }
 
