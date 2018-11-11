@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Arial - Bold MT";
+	src: url('fonts/Arial-BoldMT.otf');
+}
+
+* {
+	font-family: "Arial - Bold MT",  Helvetica, Verdana, sans-serif;
+}
+
+.main {
+	width: 905px;
+	height: 600px;
+	margin: 63px auto;
+}
+
+.header {
+	width: 319px;
+	height: 64px;
+	margin: 0 auto;
+
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+	text-align: center;
+
+	color: #393939;
+}
+
+.word {
+	color: #fd58b2;
+}
+
+.boxes {
+	width: 300px;
+	height: 240px;
+	float: left;
+}
+
+.text {
+	width: 253px;
+	height: 60px;
+	margin: 0 auto;
+	
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+
+	color: #393939;
+}
+
+.images {
+	width: 905px;
+	height: 500px;
+	margin: 10px auto;
+
+	text-align: center;
+}
