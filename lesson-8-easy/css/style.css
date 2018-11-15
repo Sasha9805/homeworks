@@ -1,0 +1,11 @@
+.row {
+	padding: 20px;
+}
+.text {
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+.image {
+	min-height: 80px;
+}
