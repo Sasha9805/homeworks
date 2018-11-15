@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+	font-family: "Tahoma", sans-serif;
+	color: #000;
+}
+.feature {
+	color: #fd58b2;
+}
+.features-title {
+	margin-bottom: 36px;
+}
+.features {
+	text-align: center;
+}
+.features__text {
+	margin-bottom: 13px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 22px;
+}
