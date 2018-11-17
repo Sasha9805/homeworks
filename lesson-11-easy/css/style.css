@@ -1,0 +1,48 @@
+.container {
+  margin: auto;
+  width: 1140px;
+  text-align: center;
+}
+
+.header-title {
+  padding-bottom: 125px;
+  padding-top: 100px;
+}
+
+.instruments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.instruments-descr {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.instruments-price {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.button {
+  border: 1px solid #23bac1;
+  outline: none;
+  color: #23bac1;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 23px 75px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

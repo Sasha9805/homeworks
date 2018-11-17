@@ -1,0 +1,33 @@
+$size: 16px
+$weight: 300
+@mixin fonts($size, $weight)
+  font:
+    size: $size
+    weight: $weight
+.container
+  margin: auto
+  width: 1140px
+  text-align: center
+.header-title
+  padding-bottom: 125px
+  padding-top: 100px
+.instruments
+  display: flex
+  justify-content: space-between
+  &-descr
+    +fonts($size,$weight)
+    margin-bottom: 25px
+  &-price
+    +fonts($size+2px, $weight+400)
+    margin-bottom: 25px
+.button
+  border: 1px solid #23bac1
+  outline: none
+  color: #23bac1
+  text-transform: uppercase
+  text-decoration: none
+  background-color: transparent
+  +fonts($size,$weight+400)
+  padding: 23px 75px
+  &:hover
+    cursor: pointer
