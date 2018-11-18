@@ -4,11 +4,15 @@ $weight: 300
   font:
     size: $size
     weight: $weight
+body
+  background-color: #f9f9f9
+  font-family: "Proxima Nova",sans-serif
 .container
   margin: auto
   width: 1140px
   text-align: center
 .header-title
+  +fonts($size+20px,$weight+100)
   padding-bottom: 125px
   padding-top: 100px
 .instruments
