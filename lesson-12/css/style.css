@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f3f3f3;
 }
 
 .container {
@@ -88,6 +89,10 @@ body {
   padding-top: 21px;
   padding-bottom: 21px;
   padding-left: 20px;
+}
+
+.delivery__form:focus {
+  outline: none;
 }
 
 .delivery__form_text {
