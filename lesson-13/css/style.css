@@ -1,0 +1,139 @@
+body {
+  font-family: "Myriad Pro",sans-serif;
+}
+
+.grid {
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 400px 400px 400px 400px;
+      grid-template-columns: 400px 400px 400px 400px;
+  -ms-grid-rows: 500px 510px 515px;
+      grid-template-rows: 500px 510px 515px;
+      grid-template-areas: "snowman snowman instructor instructor" "cable-car skier ski mountain" "description description outfit empty";
+  min-height: 100vh;
+}
+
+.grid-item__snowman {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: snowman;
+}
+
+.grid-item__instructor {
+  background-color: #f3f1ef;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: instructor;
+}
+
+.grid-item__instructor-text {
+  margin-left: 57px;
+  color: #666666;
+  font-size: 24px;
+}
+
+.grid-item__instructor-title {
+  margin-top: 130px;
+  margin-bottom: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.grid-item__instructor-descr {
+  margin-right: 333px;
+  letter-spacing: -0.6px;
+  font-weight: 400;
+}
+
+.grid-item__skier {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: skier;
+}
+
+.grid-item__ski {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: ski;
+}
+
+.grid-item__mountain {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: mountain;
+}
+
+.grid-item__cable-car {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: cable-car;
+}
+
+.grid-item__description {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: description;
+  background-color: #3f729b;
+}
+
+.grid-item__description-text {
+  margin-left: 210px;
+  margin-top: 144px;
+  margin-bottom: 120px;
+}
+
+.grid-item__description-title {
+  margin-bottom: 33px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.grid-item__description-descr {
+  margin-right: 310px;
+  margin-bottom: 68px;
+  color: #f9f9f9;
+  letter-spacing: -0.6px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.grid-item__description-button {
+  font-family: "Myriad Pro";
+  background: transparent;
+  padding: 20px 30px;
+  letter-spacing: 0.9px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  border-radius: 28px;
+  border: 2px solid #ffffff;
+}
+
+.grid-item__description-button:focus {
+  outline: none;
+}
+
+.grid-item__description-button:hover {
+  cursor: pointer;
+}
+
+.grid-item__outfit {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: outfit;
+}
+
+.grid-item__empty {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: empty;
+  background-color: #3f729b;
+}
+/*# sourceMappingURL=style.css.map */

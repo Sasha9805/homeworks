@@ -1,0 +1,79 @@
+body
+  font-family: "Myriad Pro",sans-serif
+.grid
+  margin: auto
+  display: grid
+  grid-template-columns: 400px 400px 400px 400px
+  grid-template-rows: 500px 510px 515px
+  grid-template-areas: 'snowman snowman instructor instructor''cable-car skier ski mountain''description description outfit empty'
+  min-height: 100vh
+  &-item
+    &__snowman
+      grid-area: snowman
+    &__instructor
+      background-color: #f3f1ef
+      grid-area: instructor
+      &-text
+        margin-left: 57px
+        color: #666666
+        font-size: 24px
+      &-title
+        margin-top: 130px
+        margin-bottom: 33px
+        font-weight: 700
+        text-transform: uppercase
+      &-descr
+        margin-right: 333px
+        letter-spacing: -0.6px
+        font-weight: 400
+    &__skier
+      grid-area: skier
+    &__ski
+      grid-area: ski
+    &__mountain
+      grid-area: mountain
+    &__cable-car
+      grid-area: cable-car
+    &__description
+      grid-area: description
+      background-color: #3f729b
+      &-text
+        margin-left: 210px
+        margin-top: 144px
+        margin-bottom: 120px
+        // margin-right: 310px
+      &-title
+        margin-bottom: 33px
+        font-size: 24px
+        font-weight: 700
+        text-transform: uppercase
+        color: #f9f9f9
+      &-descr
+        margin-right: 310px
+        margin-bottom: 68px
+        color: #f9f9f9
+        letter-spacing: -0.6px
+        font-size: 24px
+        font-weight: 400
+      &-button
+        font-family: "Myriad Pro"
+        // margin-right: 300px
+        background: transparent
+        padding: 20px 30px
+        letter-spacing: 0.9px
+        font-size: 18px
+        font-weight: 400
+        text-transform: uppercase
+        color: #f9f9f9
+        border-radius: 28px
+        border: 2px solid #ffffff
+        &:focus
+          outline: none
+        &:hover
+          cursor: pointer
+    &__outfit
+      grid-area: outfit
+    &__empty
+      grid-area: empty
+      background-color: #3f729b
+    
