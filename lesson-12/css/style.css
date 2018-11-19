@@ -45,6 +45,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
           flex-grow: 0;
+  background-color: #ffffff;
 }
 
 .delivery__name {
@@ -124,5 +125,6 @@ body {
   font-size: 13px;
   font-weight: 300;
   line-height: 16px;
+  margin-bottom: 22px;
 }
 /*# sourceMappingURL=style.css.map */
