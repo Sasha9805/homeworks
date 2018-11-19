@@ -1,0 +1,81 @@
+body {
+  font-family: "PF Din Text Cond Pro",sans-serif;
+  background-image: url("../img/background.png");
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
+}
+
+.kinds {
+  text-align: center;
+}
+
+.kinds__header {
+  margin-bottom: 75px;
+  margin-top: 280px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.kinds__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.kinds__flex-block {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.kinds__flex-image {
+  margin-bottom: 30px;
+}
+
+.kinds__flex-descr {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.kinds__flex-button {
+  padding: 15px 30px;
+  border: 2px solid #66cc66;
+  background: transparent;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #66cc66;
+}
+
+.kinds__flex-button:focus {
+  outline: none;
+}
+
+.kinds__flex-button:hover {
+  cursor: pointer;
+}
+
+.kinds__flex-button-o {
+  padding: 15px 36px;
+  border: 2px solid transparent;
+  color: #ffffff;
+  background-color: #66cc66;
+}
+/*# sourceMappingURL=style.css.map */
