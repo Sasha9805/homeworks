@@ -1,0 +1,82 @@
+body
+  font-family: "Proxima Nova", sans-serif
+.container
+  margin: auto
+  width: 1315px
+.content
+  background-image: url("../img/prices/background.png")
+  text-align: center
+  margin-bottom: 50px
+.section
+  &__title
+    padding-top: 120px
+    margin-bottom: 50px
+    font-size: 36px
+    font-weight: 700
+    color: #ffffff
+  &__subtitle
+    margin-bottom: 90px
+    font-size: 18px
+    font-weight: 400
+    color: #ffffff
+  &__content
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+  &__block
+    margin-bottom: 117px
+    background-color: #ffffff
+    flex-basis: 30%
+    flex-grow: 0
+    display: flex
+    justify-content: flex-start
+    flex-direction: column
+    &-services
+      background: none
+    &-image
+      flex-basis: 200px
+      margin-bottom: 37px
+  &__button
+    align-self: center
+    width: 210px
+    margin-bottom: 45px
+    box-shadow: 0 8px 13px rgba(0, 0, 0, 0.04)
+    border-radius: 8px
+    border: 1px solid #ffba15
+    background-color: #ffb504
+    background-image: linear-gradient(to top, #f5ad00 0%, #ffb504 100%)
+    padding: 27px 60px
+    font-size: 18px
+    font-weight: 400
+    text-transform: uppercase
+    color: #ffffff
+    &:focus
+      outline: none
+    &:hover
+      cursor: pointer
+.prices
+  &__block
+    &-header
+      margin-bottom: 33px
+      margin-top: 50px
+      font-size: 19px
+      font-weight: 700
+      line-height: 20px
+      color: #1a1820
+    &-image
+      min-height: 200px
+    &-price
+      margin-bottom: 34px
+      font-size: 19px
+      font-weight: 700
+      line-height: 20px
+      color: #1a1820
+      &_size
+        font-size: 30px
+    &-list
+      flex-basis: 170px
+    &-clause
+      font-size: 18px
+      font-weight: 400
+      line-height: 30px
+      color: #1a1820
