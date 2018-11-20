@@ -1,10 +1,10 @@
 body
   font-family: "Myriad Pro",sans-serif
 .grid
-  margin: auto
+  margin: 0 auto
   display: grid
   grid-template-columns: 400px 400px 400px 400px
-  grid-template-rows: 500px 510px 515px
+  grid-template-rows: 500px 510px 550px
   grid-template-areas: 'snowman snowman instructor instructor''cable-car skier ski mountain''description description outfit empty'
   min-height: 100vh
   &-item
@@ -49,14 +49,14 @@ body
         text-transform: uppercase
         color: #f9f9f9
       &-descr
-        margin-right: 310px
+        margin-right: 260px
         margin-bottom: 68px
         color: #f9f9f9
         letter-spacing: -0.6px
         font-size: 24px
         font-weight: 400
       &-button
-        font-family: "Myriad Pro"
+        font-family: "Myriad Pro",sans-serif
         // margin-right: 300px
         background: transparent
         padding: 20px 30px
@@ -73,6 +73,8 @@ body
           cursor: pointer
     &__outfit
       grid-area: outfit
+      &_size
+        min-height: 550px
     &__empty
       grid-area: empty
       background-color: #3f729b
