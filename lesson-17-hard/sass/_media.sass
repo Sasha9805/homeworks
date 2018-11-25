@@ -1,0 +1,64 @@
+@import 'mixins'
+@media (min-width: 1920px) and (max-width: 3200px)
+  .container
+    width: 2000px
+  .delivery
+    &__descr
+      &_uppercase
+        +size-l
+      &_orange
+        +size-xl
+    &__name
+      +size-l
+    &__form
+      width: 50%
+      +size-l
+      margin-bottom: 30px
+    &__button
+      &_text
+        +size-m
+    &__notify
+      +size-m
+
+@media (max-width: 1199px)
+  .container
+    width: 950px
+
+@media (max-width: 992px)
+  .container
+    width: 700px
+    &-flex
+      display: flex
+      flex-direction: column
+  .delivery
+    &__block
+      margin-bottom: 40px
+      width: 100%
+    &__form
+      width: 50%
+      margin-bottom: 10px
+    &__button
+      width: 50%
+
+@media (max-width: 768px)
+  .container
+    width: 500px
+
+@media (max-width: 576px)
+  .header
+    &__title
+      font-size: 28px
+      font-weight: bold
+      margin-top: 10px
+  .container
+    width: 300px
+    &-flex
+      display: flex
+      flex-direction: column
+  .delivery
+    &__form
+      width: 90%
+      font-size: 16px
+    &__block
+      margin-bottom: 40px
+      width: 100%
