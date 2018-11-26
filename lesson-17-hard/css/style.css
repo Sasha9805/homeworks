@@ -175,7 +175,9 @@ body {
   }
   .delivery__block {
     margin-bottom: 40px;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
   }
   .delivery__form {
     width: 50%;
